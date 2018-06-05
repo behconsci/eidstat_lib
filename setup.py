@@ -12,13 +12,13 @@ except IOError:
 setup(
     name='eidstat',
     packages=['eidstat'],
-    version='0.1',
+    version='0.1.1',
     long_description=long_description,
     description='Python lib for eidstat.com',
     author='Doniyor Jurabayev',
     author_email='behconsci@gmail.com',
     url='https://github.com/behconsci/eidstat_lib',
-    download_url='https://github.com/behconsci/eidstat_lib/archive/0.1.zip',
+    download_url='https://github.com/behconsci/eidstat_lib/archive/0.1.1.zip',
     keywords=['track', 'monitor', 'bug'],
     classifiers=[],
     install_requires=[
