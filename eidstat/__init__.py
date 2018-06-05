@@ -1,1 +1,1 @@
-from sniffets import Sniffet
+from eidstat import Sniffet
