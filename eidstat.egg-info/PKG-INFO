@@ -1,20 +1,21 @@
 Metadata-Version: 1.1
-Name: sniffets
-Version: 0.1.8
-Summary: Python lib for sniffets.com
-Home-page: https://github.com/behconsci/sniffets-python
+Name: eidstat
+Version: 0.1
+Summary: Python lib for eidstat.com
+Home-page: https://github.com/behconsci/eidstat_lib
 Author: Doniyor Jurabayev
 Author-email: behconsci@gmail.com
 License: UNKNOWN
-Download-URL: https://github.com/behconsci/sniffets-python/archive/0.1.8.tar.gz
+Download-URL: https://github.com/behconsci/eidstat_lib/archive/0.1.zip
+Description-Content-Type: UNKNOWN
 Description: ===============================
-        Python Library for sniffets.com
+        Python Library for eidstat.com
         ===============================
         
         Install
         -------
         
-        ``pip install sniffets``
+        ``pip install eidstat``
         
         
         Usage
@@ -22,11 +23,11 @@ Description: ===============================
         
         ::
         
-            from sniffets import Sniffet
+            from eidstat import Stat
         
-            sniff = Sniffet(token='ave32sde98ruj23if3riugrg')
+            et = Stat(token='ave32sde98ruj23if3riugrg')
         
-            sniff.event('important event')
+            et.watch('important event')
         
         
         In Django Project, it is better to setup in settings.py and call the event tracker in views or wherever you want

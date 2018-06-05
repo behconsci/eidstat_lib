@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+eidstat/__init__.py
+eidstat/eidstat.py
+eidstat.egg-info/PKG-INFO
+eidstat.egg-info/SOURCES.txt
+eidstat.egg-info/dependency_links.txt
+eidstat.egg-info/requires.txt
+eidstat.egg-info/top_level.txt

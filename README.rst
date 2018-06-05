@@ -1,11 +1,11 @@
 ===============================
-Python Library for sniffets.com
+Python Library for eidstat.com
 ===============================
 
 Install
 -------
 
-``pip install sniffets``
+``pip install eidstat``
 
 
 Usage
@@ -13,11 +13,11 @@ Usage
 
 ::
 
-    from sniffets import Sniffet
+    from eidstat import Stat
 
-    sniff = Sniffet(token='ave32sde98ruj23if3riugrg')
+    et = Stat(token='ave32sde98ruj23if3riugrg')
 
-    sniff.event('important event')
+    et.watch('important event')
 
 
 In Django Project, it is better to setup in settings.py and call the event tracker in views or wherever you want
